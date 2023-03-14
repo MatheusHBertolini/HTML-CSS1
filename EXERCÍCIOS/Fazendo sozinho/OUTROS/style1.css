@@ -1,0 +1,41 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Oxygen+Mono&display=swap');
+
+main{ 
+    background-color: #f5e7d2;
+    width: 600px;
+    padding: 15px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #06192e;
+}
+mark {
+    background-color: #a8d2d8;
+ }
+ body{
+    background-image: linear-gradient(to bottom, #2E5278, #133253, #06192e);
+    background-attachment: fixed;
+    font: normal lighter 1.03em 'jetbrains mono' ;
+ }
+ h1{
+     color:  #b8873e;
+     text-align: center;
+     text-shadow: 1px 1px 2px #06192e;
+     font: normal lighter 1.30em 'jetbrains mono';
+     }
+ p{
+     color: #133253; font: normal lighter 1.03em 'jetbrains mono';
+ }
+ ul{
+     color: #133253;
+}
+ img{ 
+    border-radius: 10px;
+    margin: auto;
+    width: 300px;
+}
+ div{ 
+    display: flex;
+    justify-content: center;
+}
+

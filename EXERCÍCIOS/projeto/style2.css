@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=PT+Sans+Narrow&family=Shadows+Into+Light&display=swap');
+
+
+
+body{ 
+    background-image: linear-gradient(to bottom, #463128, #584631e8, #6b5b3cd0);
+    background-attachment: fixed;
+    font:normal lighter 1.03em 'pt sans narrow';
+    }
+h1{
+    color: #c0a775;
+    text-shadow: 1px 1px 1px #000000;
+    text-align: center;
+    font:normal bolder 2em 'oswald'
+    }
+h2{
+    font-size: 1.03em;
+    background-color: #c0a775;
+    width: 750px;
+    text-align: center;
+    border: #463128;
+    border-radius: 10px;
+    font: normal lighter 1em 'shadows into light';
+    margin: auto;
+    
+}
+span{
+    display: inline-block;
+    padding: 10px;
+}
+span:hover{
+    background-color: #c0a775;
+    display: inline-block;
+    }
+span > p{
+    display: none;
+    margin: auto;
+    border-radius: 10px;
+    }
+span:hover > p{
+    display: grid;
+    background-color: #c7b185;
+    border-radius: 10px;
+    border: #463128;
+    margin: auto;
+    }
+
+a{
+    text-decoration: none;
+    color:#463128
+    }
+
+

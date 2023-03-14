@@ -1,0 +1,101 @@
+<main>
+        <h2>Nossa história:</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet odit eligendi, doloremque repellendus obcaecati vero modi quia eaque recusandae maxime. Beatae similique excepturi consequatur dicta illo fuga voluptas nobis blanditiis! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum culpa atque accusamus exercitationem voluptate reprehenderit dicta, minima asperiores repellat? Facere nam officia error dicta ea quod eius ipsa aliquid reiciendis.
+        </p>
+        <h2>Conheça nosso axé: </h2>
+        
+            <iframe width="450" height="253" src="https://www.youtube.com/embed/qHOrPfJmwqI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h2>Onde nôs encontrar:</h2>
+        <p>
+            <ul>
+                <li><a href="https://www.instagram.com/grupobatucarte/" target="_blank"><em>Instagram.</em></a></li>
+                <li><a href="https://www.youtube.com/channel/UC68S1mJMmVdDihHT6bjK1yQ" target="_blank"><em>Youtube</em></a>.</li>
+                <li><a href="https://www.facebook.com/curimbabatucarte" target="_blank"><em>Facebook</em></a>.</li>
+            </ul>
+        </p>
+
+    </main>
+
+
+
+
+
+h1{
+    color: #c0a775;
+    text-shadow: 1px 1px 1px #000000;
+    text-align: center;
+    font:normal bolder 2em 'shadows into light'
+}
+h2{
+    font:normal bolder 2em 'shadows into light'
+}
+main{
+    background-color: rgb(240, 229, 216);
+    border-radius: 10px;
+    text-align: center;
+    width: 600px;
+    box-shadow: 1px 1px 2px black;
+    margin: auto;
+    padding: 15px;}
+ul{
+    list-style: none;
+}
+iframe{ 
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px #4d4331;
+}
+p{ 
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div>
+            <h2>Nossa história</h2>
+              <p id="historia"><a href="historia.html">Conheça mais sobre a gente.</a></p>
+          </div>
+
+          <div>
+            <h2>Conheça nosso axé</h2>
+          </div>
+
+          <div>
+            <h2>Onde nôs encontrar</h2>
+              <p>
+               <a href="https://www.instagram.com/grupobatucarte/" target="_blank"><em>Instagram.</em></a>
+                <a href="https://www.youtube.com/channel/UC68S1mJMmVdDihHT6bjK1yQ" target="_blank"><em>Youtube</em></a>.
+                <a href="https://www.facebook.com/curimbabatucarte" target="_blank"><em>Facebook</em></a>.
+              </p>
+            </div>
+
+            <div>
+              <h2>Aulas</h2>
+                <p> Aulas online</p>
+                <p>Aulas presenciais</p>
+            </div>

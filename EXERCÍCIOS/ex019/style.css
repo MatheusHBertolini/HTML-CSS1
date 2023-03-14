@@ -1,0 +1,32 @@
+
+
+/* tudo que em html é id = em css é #
+tudo que em html é class = em css é.*/
+body{
+    background-color: #535252;
+    color: rgb(204, 171, 101);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+h1{
+    color: rgb(205, 206, 151);
+}
+h1#principal{ 
+    color: antiquewhite;
+    text-align: center;
+    background-color: rgb(39, 39, 39);
+}
+.basico{
+    color: bisque;
+    text-decoration: underline;
+}
+.intermediario{
+    color: #bea990;
+
+}
+.avancado{
+    color: #8b7c69;
+}
+.destaque{
+    background-color: rgba(0, 255, 255, 0.404);
+}
