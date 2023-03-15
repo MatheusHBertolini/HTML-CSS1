@@ -56,21 +56,44 @@ section{
     font-size: 4vw;
 }
 
+section > p{
+    padding-bottom: 2em;
+}
+
 section.normal{
     background-color: antiquewhite;
     color: black;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.438);
+}
+
+section.normal{
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.37);
 }
 
 section.imagem{
     background-color: aliceblue;
     color: rgb(247, 205, 158);
+    background-attachment: fixed;
 }
 
 section.imagem > p{
     display: inline-block;
     padding: 7px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.637);
     border-radius: 10px;
+    text-shadow: 1px 2px 0px black;
+    
+}
+
+section#img01{
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+
+section#img02{
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
     
 }
 
